@@ -1,12 +1,13 @@
 [package]
 name = "datastore_grpc"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jan Algermissen <algermissen@acm.org>"]
 edition = "2018"
 license = "Apache-2.0"
 repository = "https://github.com/tc1io/datastore-grpc"
+#documentation = "https://tc1io.github.io/datastore-grpc"
 description = """
-A gRPC client library for Pubsub, generated automatically from the API definition files in Google APIs.
+A gRPC client library for Datastore, generated automatically from the API definition files in Google APIs.
 """
 keywords = ["datastore", "grpc", "gcp"]
 
@@ -20,4 +21,3 @@ prost-types = "0.6"
 [build-dependencies]
 tonic-build = "0.1"
 
-#documentation = "https://gkkachi.github.io/firestore-grpc"

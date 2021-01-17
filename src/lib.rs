@@ -14,9 +14,9 @@ pub mod google {
             tonic::include_proto!("google.datastore.v1beta3");
         }
     }
-    pub mod rpc {
-        tonic::include_proto!("google.rpc");
-    }
+    //pub mod rpc {
+    //    tonic::include_proto!("google.rpc");
+    //}
     pub mod r#type {
         tonic::include_proto!("google.r#type");
     }
