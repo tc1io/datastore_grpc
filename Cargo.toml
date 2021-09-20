@@ -1,6 +1,6 @@
 [package]
 name = "datastore_grpc"
-version = "0.4.0"
+version = "0.4.1"
 authors = ["Jan Algermissen <algermissen@acm.org>"]
 edition = "2018"
 license = "Apache-2.0"
@@ -14,8 +14,8 @@ keywords = ["datastore", "grpc", "gcp"]
 
 [dependencies]
 tonic = { version = "0.4.0", features = ["tls", "tls-roots"] }
-prost = "0.7"
-prost-types = "0.7"
+prost = "0.8"
+prost-types = "0.8"
 
 [build-dependencies]
 tonic-build = "0.4.0"
